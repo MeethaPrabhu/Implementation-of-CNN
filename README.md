@@ -151,6 +151,7 @@ def convolutional_model():
 	)
     return model
 ```
+```
 ### Model compiling and Training
 
 # Define your compiled (but untrained) model
