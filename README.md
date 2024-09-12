@@ -5,8 +5,11 @@
 To Develop a convolutional deep neural network for digit classification.
 
 ## Problem Statement and Dataset
+Develop a model that can classify images of handwritten digits (0-9) from the MNIST dataset with high accuracy. The model should use a convolutional 
+neural network architecture and be optimized using early stopping to avoid overfitting.
 
 ## Neural Network Model
+
 
 Include the neural network model diagram.(http://alexlenail.me/NN-SVG/index.html)
 
@@ -32,7 +35,7 @@ import base64
 import numpy as np
 import tensorflow as tf
 ```
-Loading and Inspecting the MNIST dataset
+### Loading and Inspecting the MNIST dataset
 ```
 
 # Get current working directory
@@ -112,7 +115,7 @@ class EarlyStoppingCallback(tf.keras.callbacks.Callback):
 print('Name: Meetha Prabhu            Register Number: 212222240065         \n')
 ### END CODE HERE ###
 ```
-# GRADED FUNCTION: convolutional_model
+## GRADED FUNCTION: convolutional_model
 
 ### Network Model
 ```
@@ -164,13 +167,15 @@ training_history = model.fit(training_images, training_labels, epochs=10, callba
 
 ### Reshape and Normalize output
 
-Include your screenshot here
+![image](https://github.com/user-attachments/assets/cc6d3205-3bc6-40f8-8200-9d1c1e147b88)
+
 
 ### Training the model output
 
-Include training output screenshot here
+![image](https://github.com/user-attachments/assets/e65a5e5d-0cbc-439c-a5fe-b319e886b9d6)
+
 
 
 
 ## RESULT
-Include your result here.
+Thus the program to create a Convolution Neural Network to classify images is successfully implemented.
