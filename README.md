@@ -15,12 +15,24 @@ Include the neural network model diagram.(http://alexlenail.me/NN-SVG/index.html
 
 ## DESIGN STEPS
 
-### STEP 1:
-Write your own steps
+### Step 2:
+Load the MNIST dataset, which contains images of handwritten digits and corresponding labels.
 
-### STEP 2:
+### Step 3:
+Reshape and normalize the images by scaling the pixel values between 0 and 1.
 
-### STEP 3:
+### Step 4:
+Define a CNN model using layers such as convolution, pooling, and fully connected layers. Add a softmax output layer for classification.
+
+### Step 5:
+Compile the model using an appropriate optimizer (e.g., Adam), loss function (e.g., categorical crossentropy), and evaluation metric (accuracy).
+
+### Step 6:
+Train the model on the training dataset for a fixed number of epochs (e.g., 10 epochs) while monitoring the validation accuracy using early 
+stopping to halt training once a desired accuracy is achieved.
+
+### Step 7:
+Stop training if the model reaches 98% accuracy on the training set to prevent overfitting and save computation time.
 
 
 ## PROGRAM
