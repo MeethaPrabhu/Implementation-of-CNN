@@ -166,6 +166,10 @@ def convolutional_model():
 	)
     return model
 ```
+### Model Summary:
+```
+model.summary()
+```
 ```
 ### Model compiling and Training
 
@@ -181,11 +185,12 @@ training_history = model.fit(training_images, training_labels, epochs=10, callba
 
 ![image](https://github.com/user-attachments/assets/cc6d3205-3bc6-40f8-8200-9d1c1e147b88)
 
+### Model Summary
+![image](https://github.com/user-attachments/assets/edb1aadd-0c0c-473e-9b22-90315b455c02)
 
 ### Training the model output
 
 ![image](https://github.com/user-attachments/assets/e65a5e5d-0cbc-439c-a5fe-b319e886b9d6)
-
 
 
 
